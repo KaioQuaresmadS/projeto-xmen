@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto X-Men</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="cabecalho"><img class="logo" src="imagens/logo.svg" alt="Logo X-Men"></header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo">Selecione um personagem</h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="ciclope" data-name="Ciplope" data-description="Ele tem o poder de disparar rajadas ópticas por um acidente que aconteceu com ele quando criança, mas não consegue controlá-los">
+                    <img src="imagens/card-ciclope.jpg" alt="Ciplope">
+                </li>
+                <li class="personagem" id="jean-grey" data-name="Jean Grey" data-description = "Jean Grey é uma mutante nível ômega e o principal avatar da Força Fênix, no qual manifesta poderes cósmicos. A telepatia e telecinese">
+                    <img src="imagens/card-jean-grey.jpg" alt="Jean Grey">
+                </li>
+                <li class="personagem" id="lince-negra" data-name="Lince Negra" data-description = " É uma mutante com habilidades de camuflagem e percepção aguçada. É ágil e experiente em combate, sendo uma excelente estrategista.">
+                    <img src="imagens/card-lince-negra.jpg" alt="Lince Negra">
+                </li>
+                <li class="personagem" id="tempestade" data-name="Tempestade" data-description = "Controla o clima e é uma líder nata. Com seu forte senso de justiça, ela defende a paz entre humanos e mutantes com determinação.">
+                    <img src="imagens/card-tempestade.jpg" alt="Tempestade">
+                </li>
+                <li class="personagem" id="vampira" data-name="Vampira" data-description = "Possui a capacidade de absorver poderes e memórias através do toque. Sua luta interna entre o controle e a conexão emocional é intensa e profunda.">
+                    <img src="imagens/card-vampira.jpg" alt="Vampira">
+                </li>
+                <li class="personagem" id="wolverine" data-name="Wolverine" data-description = " É um mutante com habilidades de regeneração e garras de adamantium. Sua natureza instintiva e experiência em batalha o tornam um combatente formidável.">
+                    <img src="imagens/card-wolverine.jpg" alt="Wolverine">
+                </li>
+                <li class="personagem" id="noturno" data-name="Noturno" data-description = "Tem a habilidade de teletransporte e é ágil como um acrobata. Sua aparência demoníaca esconde um coração bondoso e uma lealdade inabalável.">
+                    <img src="imagens/card-noturno.jpg" alt="Noturno">
+                </li>
+                <li class="personagem" id="magneto" data-name="Magneto" data-description = "É um mutante mestre do magnetismo, lutando pela supremacia mutante. Sua complexa moralidade o coloca frequentemente em conflito com os X-Men.">
+                    <img src="imagens/card-magneto.jpg" alt="Magneto">
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="imagens/card-ciclope.png" alt="Personagem Selecionado">
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Ciplope</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Ele tem o poder de disparar rajadas ópticas por um acidente que aconteceu com ele quando criança, mas não consegue controlá-los</p>
+            </div>
+        </section>
+    </main>
+    <script src="js/index.js"></script>
+</body>
+</html>
